@@ -97,7 +97,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.linkedin.com/company/gig-masters/posts/?feedView=all"
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] dark:border-dark-3 dark:text-white"
+                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] "
                   >
                     <i className="fab fa-linkedin-in text-xl"></i>
                   </a>
@@ -114,7 +114,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.facebook.com/Gigmasaters.it"
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] dark:border-dark-3 dark:text-white"
+                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] "
                   >
                     <i className="fab fa-facebook text-xl"></i>
                   </a>
@@ -122,7 +122,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://www.instagram.com/gigmasters_it"
-                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] dark:border-dark-3 dark:text-white"
+                    className="flex h-10 w-10 items-center justify-center rounded-full border border-stroke text-[#0dc270] "
                   >
                     <i className="fab fa-instagram text-xl"></i>
                   </a>
@@ -198,7 +198,7 @@ const Footer = () => {
   );
 };
 
-const LinkGroup: FC<{ children: ReactNode, header: string }> = ({
+const LinkGroup = ({
   children,
   header,
 }) => {
@@ -216,7 +216,7 @@ const LinkGroup: FC<{ children: ReactNode, header: string }> = ({
   );
 };
 
-const FooterScrollLink: FC<{ section: string, label: string }> = ({
+const FooterScrollLink = ({
   section,
   label,
 }) => {
@@ -251,7 +251,7 @@ const FooterScrollLink: FC<{ section: string, label: string }> = ({
   );
 };
 
-const FooterLink: FC<{ link: string, label: string }> = ({ link, label }) => {
+const FooterLink = ({ link, label }) => {
   const handleClick = () => {
     // Scroll to top immediately when the link is clicked
     window.scrollTo(0, 0);
