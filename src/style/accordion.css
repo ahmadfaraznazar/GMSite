@@ -1,0 +1,175 @@
+.collapsible-link::before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  /* Vertical line */
+  .collapsible-link::after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    display: block;
+    transition: all 0.3s;
+  }
+  
+  .collapsible-link[aria-expanded='true']::after {
+    transform: rotate(90deg) translateX(-1px);
+  }
+  
+  .collapsible-link[aria-expanded='true']::before {
+    transform: rotate(180deg);
+  }
+  
+  
+.accordion_bro {
+
+height: 100vh;
+width: 100%;
+
+
+
+}
+
+
+/* Apply green color to the opened accordion header */
+.accordion_bro .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color:#0dc270 !important; /* Light green for open accordion */
+  color: black !important; 
+  /* White text */
+}
+
+/* Apply the default white background to collapsed accordion headers */
+.accordion_bro .accordion-item .accordion-header .accordion-button {
+  background-color: #b8e0be; /* White background for closed accordion */
+  color: black; /* Black text */
+}
+
+.accordion_bro .accordion-body {
+  background-color: white; /* Slightly darker green */
+  color: black;
+ /* Optional rounding for body */
+}
+.accordion_bro .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  background-color: #76c676 !important; /* Darker green when expanded */
+  color: white !important;
+}
+
+
+
+.accordion_bro {
+
+  height: auto !important;
+  margin-bottom: 2rem;
+  
+  }
+  
+  
+  
+  .accordion_bro h1 {
+    font-size: 2rem; /* Adjust font size of the title */
+  }
+  
+  .accordion_bro p {
+    font-size: 0.9rem; /* Adjust font size of the paragraphs */
+  }
+  
+  .accordion_bro .accordion-header h6 {
+    font-size: 0.95rem; /* Adjust font size of the headers */
+  }
+  
+  .accordion_bro .accordion-body {
+    font-size: 0.85rem; /* Adjust font size of the accordion body text */
+  }
+  
+  
+  
+  .accordion_bro {
+    overflow: visible !important;/* Ensure the accordion can expand */
+  }
+  
+
+
+  .accordion-button::after {
+    content: "";
+    display: inline-block;
+    width: 8px; /* Adjust width for size */
+    height: 8px; /* Adjust height for size */
+    border-width: 2px; /* Thickness of the arrow */
+    border-style: solid;
+    border-color: currentColor;
+    border-right: none; /* Removes right side */
+    border-top: none; /* Removes top side */
+    transform: rotate(135deg); /* Default to downward arrow */
+    transition: transform 0.3s ease; /* Smooth transition */
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(-45deg); /* Rotate to upward arrow when expanded */
+  }
+  
+
+.custom_desktop_1 {
+
+font-size: 40px !important;
+font-weight: bold;
+
+
+}
+
+.custom_desktop_2 {
+
+  font-size: 24px !important;
+  font-weight: bold;
+    color: #606a80;
+  
+
+
+
+
+}
+
+.button_custom_black {
+
+background: transparent;
+border: solid 2px;
+border-radius: 5px;
+padding: 10px;
+margin-top: 20px;
+font-weight: bold;
+width: 250px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  

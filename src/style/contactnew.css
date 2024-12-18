@@ -1,0 +1,138 @@
+.conatact_div {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+height: 1000px;
+
+
+}
+
+
+.first_div_contact{
+
+display: grid;
+grid-template-rows: 1fr 1fr;
+justify-content: left;
+align-items: center;
+
+height: 800px;
+padding: 30px;
+margin-top: -22% !important;
+
+
+
+
+}
+
+
+
+.div_2_contact_us {
+  height: 650px;
+  margin-top: 12rem !important;
+  position: relative;
+}
+
+.div_2_contact_us::before {
+  content: '';
+  position: absolute;
+  top: -160px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;  /* Increased from 120px */
+  height: 200px; /* Increased from 120px */
+  background-image: url("../assets/images/jhaaz2.png");
+  background-size: contain;
+  animation: flyPlane 8s ease-in-out infinite;
+}
+
+@keyframes flyPlane {
+  0% {
+    transform: translateX(-50%) translateY(0) rotate(-30deg);
+  }
+  25% {
+    transform: translateX(-80px) translateY(-40px) rotate(-15deg);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-100px) rotate(0deg);
+  }
+  75% {
+    transform: translateX(80px) translateY(-40px) rotate(15deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0) rotate(-30deg);
+  }
+}
+
+.second_row_contact_1 {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content:center;
+align-items: center;
+text-align: left;
+margin-top: 20%;
+
+
+}
+
+
+.map-container {
+   /* Blue border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px; /* Optional: Add padding for inner spacing */
+  display: inline-block; /* Optional: Inline layout */
+}
+
+
+
+.contact_first_heading_map {
+
+text-align: left;
+font-size: 50px;
+padding-bottom: 20px;
+font-weight: bold;
+
+
+}
+
+
+.contact_first_paragraph_map {
+
+font-size: 18px;
+
+
+
+
+}
+
+
+.dark-placeholder {
+
+color: black !important;
+opacity: 100%;
+
+
+}
+
+
+
+.button_form_class {
+  width: 80% !important;
+  background-color: #0dc270;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(13, 194, 112, 0.3);
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}

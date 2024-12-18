@@ -1,0 +1,166 @@
+.card_section_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F9F9F9;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin-top: 115px !important;
+  }
+  .card_section_1:hover {
+   background-color:#defbee;
+   transition: 2s;
+   transform: scale(1.05); /* Increase size to 105% of the original */
+   cursor: pointer;
+   
+  }
+  .card_section_1_transparent:hover {
+    background-color:#defbee;
+    transition: 2s;
+   transform: scale(1.05); /* Increase size to 105% of the original */
+   cursor: pointer;
+   }
+ 
+
+
+
+
+
+
+   .card_section_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #F9F9F9;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin-top: 40px !important;
+  }
+  .card_section_1:hover {
+   background-color:#defbee;
+   transition: 2s;
+   transform: scale(1.05); /* Increase size to 105% of the original */
+   cursor: pointer;
+   
+  }
+  .card_section_1_transparent:hover {
+    background-color:#defbee;
+    transition: 2s;
+   transform: scale(1.05); /* Increase size to 105% of the original */
+   cursor: pointer;
+   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.card_list_1 {
+
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+
+
+
+
+
+}
+
+
+.heading_card_1 {
+font-size: 18px;
+font-weight: bold;
+
+
+
+
+}
+
+.heading_card_2 {
+    font-size: 14px;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    
+    
+    
+    
+    }
+
+
+    .line_design_card {
+        position: relative; /* Allows positioning of the line */
+        padding-top: 10px; /* Add space between the text and the line */
+        width: 80%; /* Ensure the element spans the full width */
+        
+      }
+      
+      .line_design_card::before {
+        content: ""; /* No content, just a line */
+        position: absolute;
+        top: 0; /* Position the line at the top of the li */
+        left: 0;
+        width: 100%; /* Full width of the li */
+        height: 2px; /* Thickness of the line */
+        background: linear-gradient(to right, #0dc270 10%, grey 10%); /* 30% green, 70% black */
+      }
+    
+
+
+.list_cards_second{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+row-gap: 5vh;
+text-align: center;
+padding: 0;
+margin: 0;
+font-size: 14px;
+
+
+
+}      
+
+
+
+.card_section_1_transparent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: transparent; /* Keeps the background transparent */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    padding: 3%;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow */
+  }
+      
+
+  

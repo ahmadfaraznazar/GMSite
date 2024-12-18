@@ -1,0 +1,50 @@
+.join_us {
+width: 100%;
+background: linear-gradient(to right top, #000000, #0dc270);
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+height: 50vh;
+
+
+}
+
+
+.list_1_join {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+gap: 20px;
+padding: 10%;
+text-align: left;
+
+
+}
+
+
+.heading_join1 {
+
+font-size: 30px;
+font-weight: bold;
+color: white;
+
+}    
+
+.heading_join2 {
+
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    
+    
+    }    
+
+.secon_list_join_us {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: center;
+justify-content: center;
+}
+

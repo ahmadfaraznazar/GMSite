@@ -1,0 +1,138 @@
+.image_div_homepage {
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:center;
+min-height: 500px !important;
+margin-top: 150px;
+
+}
+
+
+.image_1_div {
+    opacity: 90%;
+    display: grid; /* Use grid layout */
+    grid-template-rows: 1fr 1fr 1fr; /* Keep your current grid template if needed */
+    position: relative; /* Necessary for child absolute positioning (if used) */
+  }
+  
+  .div_other_set {
+    grid-row: 3; /* Place the div in the third row */
+    align-self: end; /* Aligns to the bottom of the row */
+    justify-self: start; /* Aligns to the left of the row */
+    padding: 20px; /* Optional: Add padding for spacing */
+    text-align: left; /* Align text inside the div */
+    color: white; /* Text color for visibility */
+  }
+  
+
+.image_2_div {
+
+    opacity: 98%;
+    
+    display: grid; /* Use grid layout */
+    grid-template-rows: 1fr 1fr 1fr; /* Keep your current grid template if needed */
+    position: relative; /* Necessary for child absolute positioning (if used) */
+
+    }
+    
+
+
+.image_div_textr_1 {
+
+color: white;
+font-size: 36px;
+padding: 10px;
+font-weight: bold;
+opacity: 80%;
+
+}
+
+
+.image_div_textr_2 {
+
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 80%;
+    }
+    
+.image_div_textr_1_button {
+
+color: white;
+font-size: 14px;
+background: transparent;
+border: solid 2px;
+border-radius: 5px;
+height: 50px;
+margin: 10px;
+font-weight: bold;
+opacity: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px !important;
+
+}    
+
+@keyframes moveBackground {
+    0% {
+      background-position: top left, bottom right;
+    }
+    50% {
+      background-position: top right, bottom left;
+    }
+    100% {
+      background-position: top left, bottom right;
+    }
+  }
+  
+  .div_2_images_below {
+    min-height: 500px;
+    
+    background-color: rgb(141, 221, 177); /* Light green background */
+    background-image: url('../assets/logo/triangle.svg'), url('../assets/logo/triangle.svg');
+    background-size: auto, auto; /* Adjust if you need the image to scale */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    animation: moveBackground 30s linear infinite; /* Slower animation (30 seconds for a full cycle) */
+  }
+    
+    
+  .div_2_images_below h1 {
+    
+    font-size: 60px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+
+  .div_2_images_below h3 {
+    
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .div_2_images_below button {
+    
+    color: white;
+    font-size: 14px;
+    background: transparent;
+    border: solid 3px;
+    border-radius: 5px;
+    height: 50px;
+    margin: 10px;
+    font-weight: bold;
+    opacity: 80%;
+    
+  }
+  

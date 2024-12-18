@@ -1,0 +1,5 @@
+@media (min-width: 1200px) {
+    .first_heading {
+      font-size: 36px; /* Larger size for screens above 1200px */
+    }
+  }

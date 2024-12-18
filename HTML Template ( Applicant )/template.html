@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <title>Email </title>
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: #F2F2F2;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav img {
+            width: 150px;
+            height: auto;
+        }
+
+        .bolding {
+            font-weight: 600;
+        }
+
+        .separator {
+            font-size: x-large;
+            font-weight: 600;
+            color:#F2F2F2;
+            padding: 30px 0 0 30px;
+            width: 100% ;
+            height: 50px;
+            background-color: #1DBD73;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+        }
+
+        main {
+            
+            padding: 30px;
+            
+            
+            
+        }
+
+        hr {
+            border: 1px solid #1DBD73 ;
+        }
+
+        .social-media {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            font-size: 12px;
+        }
+
+        footer {
+            background-color: #1DBD73;
+            color: #F2F2F2;
+           
+            text-align: center;
+            font-size: 12px;
+            
+            border-top: 1px solid #1DBD73;
+        }
+
+        a {
+            color: #F2F2F2;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: #1DBD73;
+        }
+
+        .footer-top {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            
+            color: #F2F2F2;
+            
+        }
+
+        footer {
+            width:100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer hr {
+            
+           
+            border-bottom: 1px solid #92d4b6;
+        }
+
+        .footer-top, .footer-mid, .footer-low {
+            padding: 10px 32px;
+            
+        }
+
+        .footer-top {
+            padding: 30px 100px;
+        }
+
+        
+
+
+
+        .contact-content {
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+            justify-content: center;
+            
+        }
+
+        @media (max-width: 768px) {
+            .footer-top {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                align-items: center;
+                justify-items: center;
+                color: #F2F2F2;
+                padding: 20px;
+               
+            }
+
+            .contact-content {
+                display: flex;
+                flex-direction: column;
+                
+                
+            }
+
+
+        }
+
+
+        
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="images/ImageLogoMain.png">
+    </nav>
+    <div class="separator">Job Application Confirmation</div>
+    <main>
+
+    <p class="bolding">Dear [Applicant's Name],</p>
+
+    <p>We have received your job application. Thank you for your interest in the [Job Title] position at [Company Name]. 
+        <br>
+        <br>
+        We appreciate you taking the time to apply.
+        Your resume and application is being reviewed. If your qualifications match the need of role, we'll get in touch with you.
+        <br>
+        <br>
+        Thank you again for your interest in [Company Name]. If you have any inquaries, feel free to get in touch with us.
+    </p>
+    <br>
+    <p class="bolding">Gig Masters</p>
+    </main>
+    <footer>
+        <div class="footer-top">
+            
+            <div class="footer-logo">
+                <img src="images/ImageLogo2.png" height="32px">
+            </div>
+            <div>
+            <p>Feel free to reach us at:</p>
+            <div class="contact-content">
+                
+                <div><a href="www.gigmasters.it" style="color: #F2F2F2; text-decoration: none;">www.gigmasters.it</a></div>
+                <div><a href="tel:+393759119255" style="color: #F2F2F2; text-decoration: none;">+39 375 911 9255</a></div>
+                <div><a href="mailto:contact@gigmasters.it" style="color: #F2F2F2; text-decoration: none;">contact@gigmasters.it</a></div>
+            </div>   
+
+        </div>
+    </div>
+        <hr>
+        <div class="social-media footer-mid">
+            <div><a href="https://www.linkedin.com/company/gig-masters/posts/?feedView=all" style="color: #F2F2F2; text-decoration: none;">LinkedIn</a></div>
+            <div><a href="https://www.facebook.com/Gigmasaters.it" style="color: #F2F2F2; text-decoration: none;">Facebook</a></div>
+            <div><a href="https://www.instagram.com/gigmasters_it" style="color: #F2F2F2; text-decoration: none;">Instagram</a></div>
+        </div>
+        <hr>
+        <div class="footer-low"> 2022 Gig Masters. All rights reserved.</div>
+    </footer>
+    
+    
+</body>
+</html>

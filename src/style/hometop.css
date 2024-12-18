@@ -1,0 +1,95 @@
+.home_top {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+align-items: center;
+height: 50vh;
+gap:2%;
+border: none; /* Reset all borders */
+border-bottom: 0.8px solid #EEEEEE; 
+background: linear-gradient(to bottom right, #9be9b0, white 50%);
+    
+/* Border with increased opacity */
+
+
+
+
+  
+
+}
+.list_1_home_top {
+
+list-style: none;
+display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+list-style: none;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInFromLeft 2s ease-out forwards;
+
+
+
+}
+
+.line_design {
+    position: relative; /* Allows positioning of the line */
+    padding-top: 10px; /* Add space between the text and the line */
+    width: 100%; /* Ensure the element spans the full width */
+  }
+  
+  .line_design::before {
+    content: ""; /* No content, just a line */
+    position: absolute;
+    top: 0; /* Position the line at the top of the li */
+    left: 0;
+    width: 100%; /* Full width of the li */
+    height: 2px; /* Thickness of the line */
+    background: linear-gradient(to right, #0dc270 10%, grey 10%); /* 30% green, 70% black */
+  }
+    
+  .top_image {
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    max-height: 50vh; /* Restricts the height to 50% of the viewport height */
+    padding: 2%; /* Keeps consistent padding */
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+  }
+  
+
+.list_top_2 {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style: none;
+
+
+
+
+}
+
+.first_heading{
+
+  text-align: center;
+font-weight: bold;  
+font-size: 50px!important;
+  }
+  
+ .second_heading {
+
+    font-size: clamp(10px, 3vw, 14px); /* Minimum size of 16px, scaling based on viewport width, and max size of 24px */
+    color: #625C70;
+    padding: 0;
+    font-size: 36px !important;
+
+ } 
+ .third_heading {
+
+    font-size: clamp(10px, 3vw, 14px); /* Minimum size of 16px, scaling based on viewport width, and max size of 24px */
+    font-weight: bold;
+    padding: 0;
+    margin-top: 5%;
+
+ } 

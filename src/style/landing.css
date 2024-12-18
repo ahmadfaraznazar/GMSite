@@ -1,0 +1,342 @@
+.list_1_home_top_landing {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap:5vh;
+    padding-left: 10vw;
+
+
+
+
+}
+
+.list_1_home_top_landing li h1 {
+
+
+    text-align: left;
+
+
+
+
+
+
+}
+
+.list_1_home_top_landing li  {
+
+
+    width: 100%;
+
+
+
+
+
+
+}
+
+
+
+.get_button {
+
+
+    background-color:#0dc270;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:110px !important;
+    min-height: 40px;
+    
+}
+
+.get_button:hover {
+
+
+  background-color:#0dc270;
+  color: aliceblue;
+  font-weight: bold;
+  border: none;
+  
+}
+
+
+
+.get_button2 {
+
+
+    background-color: #f4f4f4;
+    color: aliceblue;
+    border: none;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width:180px;
+    color: black;
+    min-height: 40px;
+}
+
+
+
+
+
+
+.buttons_list_landing {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 20px;
+
+
+}
+
+
+.top_image2 {
+    width: 150%; /* Ensures the image takes up the full width of its container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    max-height: 70vh; /* Restricts the height to 50% of the viewport height */
+    padding: 2%; /* Keeps consistent padding */
+    object-fit: cover; /* Ensures the image scales properly without distortion */
+  }
+ 
+
+
+  .list_1_home_top_landing {
+    list-style: none;
+    
+    
+  }
+  
+  
+  .list_1_home_top_landing li {
+    margin: 10px 0; /* Optional spacing between items */
+  }
+  
+
+.businesspartners {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5vh;
+    margin-top: 4vh;
+
+
+
+
+}
+
+
+
+
+.business_partners_heading {
+
+font-size: 24px;
+
+
+}
+
+
+
+.businesspartners {
+    list-style: none;
+    padding: 20px;
+    margin: 0 auto;
+    opacity: 0;
+    transform: scale(0.5); /* Start smaller */
+    animation: enlargeFromSmall 1s ease-out forwards;
+    text-align: center; /* Center-align content */
+  }
+  
+  @keyframes enlargeFromSmall {
+    to {
+      opacity: 1;
+      transform: scale(1); /* Normal size */
+    }
+  }
+  
+  .business_partners_heading {
+    font-size: 1.5rem;
+    margin-top: 5vh;
+    color: #333; /* Optional styling for heading */
+  }
+  
+  .partner_images_list {
+    display: flex;
+    justify-content: space-evenly;
+    gap:5vw; /* Spacing between images */
+  }
+  
+  .partner_images_list img {
+        transition: transform 2s ease; /* Adds hover effect */
+  }
+  
+  .partner_images_list img:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+    cursor: pointer;
+  }
+  
+.home_top {
+
+  height: 90vh !important;
+
+}
+
+
+
+  .landing_page_adjustment {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #f0fff4, white 50%);
+    position: relative;
+    z-index: 999999;
+
+
+
+  }
+  
+  /* Keyframes for gradient fade-in */
+  @keyframes gradientFadeIn {
+    0% {
+      opacity: 0;
+      background: linear-gradient(to bottom right, transparent, transparent 70%);
+    }
+    100% {
+      opacity: 1;
+      background: linear-gradient(to bottom right, #aae4b9, white 50%);
+    }
+  }
+  
+
+  .custom_hometop {
+
+height: 68vh;
+
+
+  }
+
+.landing_page_fonty {
+
+font-size: 18px !important;
+
+}
+
+
+.first_headingl {
+
+    font-size: 50px;
+    font-weight: bold;
+
+
+}
+
+
+.first_headingl span {
+
+    
+    font-weight: bold;
+    color:#0dc270;
+
+
+}
+
+
+
+.afterlanding_cards {
+
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+
+
+.after_landing_cards {
+
+text-align: center;
+font-size: 38px;
+font-weight: bold;
+color: #333;
+word-spacing: 10%;
+
+
+}
+
+
+.after_landing_cards2 {
+
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    font-weight: bold;
+    color: #606a80;
+        
+    
+    }
+
+
+.after_landing_cards_div {
+
+width: 100%;
+
+
+
+
+
+}
+
+
+
+
+.heading_black {
+
+font-size: 36px;
+font-weight: bold;
+color: white;
+
+
+
+}
+
+
+
+.heading_black span {
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #0dc270;
+    
+    
+    }
+
+
+
+    .blogs_cards {
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 2%;
+    }
+
+
+
+
+

@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+
+* {
+
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Roboto", serif;
+font-weight: 300;
+font-style: normal;
+
+
+
+
+
+}
+
+/* CSS for fade-in animation */
+/* CSS for fade-in and scale-up animation */
+.fade-in {
+    animation: fadeInScale 2s ease-out forwards; /* 3 seconds scale-up and fade-in effect */
+  }
+  
+  @keyframes fadeInScale {
+    from {
+      opacity: 0;
+      transform: scale(0.5); /* Start with the image smaller */
+    }
+    to {
+      opacity: 1;
+      transform: scale(1); /* End with the image at normal size */
+    }
+  }
+    
+
+
+.icons_custom_application {
+
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+padding-top: 5px;
+padding-bottom: 5px;
+
+
+}
+
+.custom_class_last_card {
+
+margin-bottom: 5rem !important;
+
+
+}
+
+
+.custom_class_last_card:hover {
+
+  
+  background-color:#defbee;
+  transition: 2s;
+  transform: scale(1.05); /* Increase size to 105% of the original */
+  cursor: pointer;
+  
+
+
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogs_text p {
+
+font-size: 36px !important;
+padding-top: 30px;
+
+
+}
+.blogs_text_1 p {
+
+  font-size: 50px !important;
+  padding-top: 30px;
+  
+  
+  }
+
+  
+  
+
+
+.testing_footer_123 {
+
+text-align: center;
+
+
+
+}
+
+
+
+
+.text-base {
+
+font-size: 18px !important;
+color:grey !important;
+font-weight: bold !important;
+}
+
+
+
+.text-body-color {
+
+  font-size: 18px !important;
+  color:grey !important;
+  font-weight: bold !important;
+
+}
+
+
+
+.new_custom_1 {
+
+font-size: 18px !important;
+color:grey !important;
+font-weight: bold !important;
+
+
+}
+
+
+
+
+.card_area {
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.line_company_custom p {
+
+font-size: 20px !important;
+
+
+}
+
+.div_2_services h1 {
+
+text-align:center !important;
+font-size:36px;
+font-weight:bold;
+
+}
+
+
+.div_2_services  {
+
+  margin: 30px;
+  padding-top: 5px;
+  }
+  
+
+  .green_button {
+
+padding: 5px;
+font-weight: bold !important;
+
+
+  }
+
+
+
+  .icon_formobile .whatsapp_icon2 {
+    transition: transform 0.3s ease;
+  }
+  
+  .icon_formobile .whatsapp_icon2:hover {
+    transform: scale(1.2);
+  }
+  

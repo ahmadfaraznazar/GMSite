@@ -1,0 +1,807 @@
+/* Apply styles for screens smaller than 480px */
+@media (max-width: 880px) {
+    .list_top_2 {
+      display: none;
+    }
+
+    .home_top{
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 2%;
+padding-right: 2%;
+
+    }
+.banner_image {
+
+display: none;
+
+
+}
+.banner_company {
+
+display: flex;
+justify-content:center ;
+align-items: center;
+height: 30vh;
+margin-top: 4rem;
+
+
+}
+.company_card_right {
+
+
+
+}
+
+.company_card_1{
+display: flex;
+justify-content: center;
+align-items: left;
+padding: 2px;
+text-align: left;
+}
+
+.card_list_1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items:center ;
+gap: 5px;
+
+
+}
+.list_cards_second{
+display: grid;
+grid-template-columns: 1fr 1fr;
+align-items: center;
+gap: 25px;
+text-align: center;
+padding-top: 15px;
+
+
+}
+.mobile_responsive{
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items:center;
+gap: 50px;
+
+
+
+
+}
+.list_second_styling p {
+
+font-size: 24px;
+font-weight: bold;
+
+}
+
+.list_second_styling p a {
+
+    font-size: 24px;
+    font-weight: bold;
+    
+    }
+    
+
+
+.slider_left {
+
+    font-size: 24px;
+    font-weight: bold;
+    
+
+
+}    
+
+.list_second_styling_last{
+
+margin: 0;
+
+
+}
+.first_heading_careers{
+text-align: center;
+
+
+
+}
+
+
+
+
+
+.careers_main_page{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+margin-bottom: 60px;
+
+
+
+}
+
+.chec_box_select {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+    grid-gap: 10px; /* Adjust the gap between items if needed */
+    width: 100%; /* Optional: Ensure it takes the full width of its container */
+    align-items: start; /* Align items to the top of each grid cell */
+  }
+    
+
+
+  .second_heading {
+
+text-align: center;
+font-size: 18px;
+padding-top: 10px;
+
+  }
+.first_heading{
+
+text-align: center;
+font-size: 25px;
+
+}
+.third_heading{
+
+text-align: center;
+width: 100%;
+font-size: 14px;
+
+}
+
+.line_design_card {
+
+width: 100%;
+
+}
+
+.list_1_home_top_companycard {
+
+padding: 0;
+padding-right: 5px;
+padding-left: 5px;
+min-height: 22rem;
+
+}
+.first_row {
+
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+padding-bottom: 18vw;
+
+
+
+}
+.image_text_1 {
+
+font-size: 14px;
+
+
+}
+.person_images_main {
+
+height: auto;
+min-height: fit-content;
+
+
+}
+.card_person_information{
+
+height: auto;
+
+}
+
+.after_company_card {
+
+row-gap: 12px;
+font-size: 12px;
+
+}
+
+.w-full {
+
+text-align: center;
+
+} 
+
+.blogs_cards {
+
+display: flex !important;
+flex-direction: column !important;
+justify-content: center !important;
+gap: 40px !important;
+
+
+
+
+}
+
+.blogs_main{
+
+gap: 5vh;
+
+}
+.card-title {
+
+font-size: 18px;
+text-align: center;
+margin-bottom: 5px !important;
+
+}
+
+.card-text {
+
+font-size: 12px;
+text-align: center;
+
+}
+
+.card_text_bottom_list {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+    align-items: flex-start; /* Align items at the top */
+    text-align: center;
+    vertical-align: top; /* Ensure text aligns to the top */
+    padding-left: 5px;
+  }
+  
+
+  .last_list_showhere {
+  position: absolute;
+  
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%); /* To center it horizontally */
+  margin-top: 20px; /* Add space from the content above */
+}
+
+
+.list_icon_styles {
+
+padding-bottom: 40px;
+
+}
+
+.modal_button_cards {
+    background-color: #0dc270;
+    position: absolute;
+    right: 2vw;
+    bottom: 0.5vw;
+    border: none;
+    border-radius: 20px;
+    width:100px;
+    font-size: 3vw;
+    padding-right: 1%;
+    padding-left: 1%;
+
+}
+
+
+
+
+.image_gig_jobs {
+
+
+   display: none;
+
+}
+
+.chec_box_select{
+
+height: 26rem;
+padding-top: 30px;
+
+
+
+
+}
+
+
+.job-type-heading {
+
+font-size: 12px;
+
+
+
+}
+
+.job_type_1{
+font-size: 12px;
+padding: 0;
+
+
+
+}
+
+.form-check{
+
+font-size: 12px;
+
+
+}
+
+
+.dropdowns_careers{
+
+display: none;
+
+
+}
+
+.above_card_div{
+
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 10px;
+
+
+}
+
+.row {
+
+gap: 10px;
+
+
+}
+.hello_testing_123{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+img, svg, video, canvas, audio, iframe, embed, object {
+    display: inline !important;
+}
+
+
+.banner_image{
+
+display: none !important;
+
+
+}
+
+.company_card_1{
+
+margin-bottom: 20px;
+margin-top: 30px;
+
+
+}
+
+.company_card_after{
+
+    margin-bottom: 20px;
+
+
+}
+
+.icon_ghaib{
+
+display: none;
+
+
+}
+
+.image_gig_jobs {
+
+display: none !important;
+
+
+}
+
+/* Position the cross icon at the top right of the sidebar */
+.close-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #333;
+    z-index: 10;
+  }
+  
+  .close-menu:hover {
+    color: #d9534f; /* Change color on hover */
+  }
+  
+.list_second_styling_last {
+
+display: none;
+
+}
+
+.heading_card_2 {
+  font-size: 14px;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  
+  
+  
+  
+  }
+  .heading_card_1 {
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+    
+    
+    }
+    
+.list_cards_second{
+font-size: 14px;
+
+}
+
+
+
+
+.image_text_1 {
+
+text-align: center;
+
+
+
+}
+
+
+
+.box_file_name {
+
+ font-size: 14px; 
+  }
+  
+
+
+
+
+  .after_landing_cards_div {
+    height: 100% !important;
+    width: 100vw;
+}
+
+
+.card_section_1 {
+
+margin-top: 50px;
+margin-bottom: 40px;
+
+}
+
+
+.card_section_1_transparent {
+
+margin-top: 40px;
+margin-bottom: 30px;
+
+
+}
+
+.custom_responsive {
+
+font-size: 14px;
+
+
+}
+
+.custom_1250style {
+
+margin-top: 2rem !important;
+
+
+}
+
+.blogs_text p{
+
+  font-size: 14px;
+  
+  
+  }
+  
+
+
+
+
+.list_top_2 {
+
+display: none;
+
+
+}
+
+.custom_hometop {
+
+
+
+  margin: 0;
+}
+
+
+.list_1_home_top_landing {
+
+display: flex;
+flex-direction: center;
+justify-content: center;
+align-items: center !important;
+padding-left: 0 !important;
+padding: 10px;
+text-align: center;
+
+
+}
+.list_1_home_top_landing li p {
+
+  text-align: center;
+  
+  }
+
+
+  .list_1_home_top_landing li h1 {
+    text-align: center !important;
+}
+
+
+.buttons_list_landing {
+
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+
+
+}
+
+.partner_images_list {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 90px;
+
+
+}
+
+
+
+.landing_page_black_section {
+
+display: flex !important;
+flex-direction: column !important;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+.image_mobile_landing_page {
+
+height: 250px !important;
+
+
+}
+
+
+.mobile_response_pages {
+
+margin-right: 30px;
+margin-left: 30px;
+margin-top: 30px;
+
+
+}
+
+.join_us {
+
+
+  display: none !important;
+  margin-top: 20rem;
+  height: 500px !important;
+  margin-bottom: 2rem !important;
+
+
+}
+
+
+.accordion_bro {
+
+height: auto !important;
+
+
+}
+
+
+
+.accordion_bro h1 {
+  font-size: 2rem; /* Adjust font size of the title */
+}
+
+.accordion_bro p {
+  font-size: 0.9rem; /* Adjust font size of the paragraphs */
+}
+
+.accordion_bro .accordion-header h6 {
+  font-size: 0.95rem; /* Adjust font size of the headers */
+}
+
+.accordion_bro .accordion-body {
+  font-size: 0.85rem; /* Adjust font size of the accordion body text */
+}
+
+
+
+.accordion_bro {
+  overflow: visible !important;/* Ensure the accordion can expand */
+}
+
+.container {
+  position: relative !important;
+}
+
+.row {
+  overflow: visible!important; /* Allow rows to expand with content */
+}
+
+
+
+.card_title_custom {
+
+font-size: 24px !important;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+.description_2 {
+font-size: 12px  !important;
+
+
+}
+
+.home_top {
+
+border: none;
+
+}
+
+
+.ceo_vision {
+
+min-height: auto !important;
+height: 1050px !important;
+margin-top: 4rem !important;
+}
+    
+
+
+
+.image_div_homepage{
+
+display: grid !important;
+grid-template-rows: 1fr 1fr !important;
+width: 100%;
+min-height: 500px;
+
+
+}
+
+.image_1_div {
+
+width: 100vw !important;
+
+
+}
+
+.image_2_div {
+
+    width: 100vw !important;
+    
+    
+    }
+    
+
+
+
+
+
+
+
+.div_2_images_below {
+
+min-height:500px;
+
+
+}
+
+
+.div_2_images_below h1{
+
+  font-size: 30px !important;
+  padding-top: 10px !important;
+
+
+
+
+}
+.div_2_images_below h3{
+
+  font-size: 20px !important;
+  padding-top: 10px !important;
+
+
+
+
+}
+
+
+.after_landing_cards {
+
+font-size: 24px !important;
+margin-right: 10px;
+margin-left: 10px;
+
+}
+
+
+.after_landing_cards2 {
+
+  font-size: 18px !important;
+  margin-right: 10px;
+margin-left: 10px;  
+  
+  }
+  
+
+
+
+.ceo_vision_internal {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+
+
+
+.blogs_heading-top {
+
+font-size: 24px;
+font-weight: bold;
+
+
+}
+
+
+
+
+
+
+}
+
+
+
+

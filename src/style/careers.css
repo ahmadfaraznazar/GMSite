@@ -1,0 +1,515 @@
+.careers_main_page {
+  display: grid;
+  grid-template-columns: 1.5fr 4.8fr;
+  margin-right: 5%;
+  margin-left: 5%;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow around the container */
+  background-color:#f9fafa;
+  ; /* Optional: Adds a white background for contrast */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+
+
+.chec_box_select {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items:left; /* Horizontally centers the content */
+    place-items:center; /* Centers content both horizontally and vertically */
+    border-radius: 10px;
+    padding-top: 2%;
+    width: 100%;
+  }
+  
+.job-type-heading {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .job-type-heading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 120%;
+    height: 2px; /* Thickness of the line */
+    background-color: gray; /* Color of the line */
+  }
+  
+.job_type_1 {
+
+padding-top: 10px;
+width: 100%;
+
+
+
+}
+
+.search_bar {
+
+padding: 1%;
+background-color: #f9fafa;
+
+
+}
+.job_cards_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 100%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  overflow-y: auto; /* Enables scrolling for vertical overflow */
+  scrollbar-width: none; /* For Firefox, hides scrollbar */
+}
+
+.job_cards_list::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Edge, hides scrollbar */
+}
+
+.card_text_bottom_list {
+
+display: flex;
+flex-direction: row;
+justify-content: first baseline;
+align-items: center;
+gap: 4vw;
+padding-top: 2vh;
+
+
+}
+
+.job-type-item {
+  display: flex;
+  justify-content: space-between; /* Ensures the text and dash are at opposite corners */
+  width: 100%;
+}
+
+.job-type-heading {
+  margin: 0;
+  width: 100%;
+  text-transform: capitalize;
+  
+  /* Reset margin for proper alignment */
+}
+
+.job-type-dash {
+  font-weight: bold;
+  
+}
+
+.job_type_1 {
+
+width: 100%;
+
+
+}
+
+.chec_box_text_lis {
+
+width: 70%;
+
+}
+
+.button_creers_section {
+
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px !important;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+.top_section_carerrs {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2vh;
+padding-top: 2vh;
+
+
+
+}
+
+
+.first_heading_careers {
+
+font-weight: bold;
+font-size: 40px !important;
+
+
+
+}
+
+
+.top_section_carerrs li p {
+
+  font-size: 24px !important;
+  font-weight: bold;
+    color: #606a80;
+    text-align: center !important;
+
+  
+  
+  }
+  
+
+
+
+
+
+
+
+
+
+
+.above_card_div {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+
+
+}
+
+.dropdowns_careers {
+
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 2vh;
+
+}
+
+
+.dropdown_styling {
+
+background: transparent !important;
+color: gray;
+border: none;
+
+
+}
+
+.dropdown_styling:hover {
+
+  background: transparent !important;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  
+  
+  }
+  .dropdown_styling:active {
+
+    background: transparent !important;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    
+    
+    }
+
+    .dropdown_styling:after {
+
+      background: transparent !important;
+      color: gray;
+      border: none;
+      cursor: pointer;
+      
+      
+      }
+  
+      .dropdown_styling.show {
+
+        background: transparent !important;
+        color: gray;
+        border: none;
+        cursor: pointer;
+        
+        
+        }
+
+.above_card_part_1 {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: left;
+gap: 1vh;
+
+
+}        
+
+.above_heading_cards {
+
+font-size: 20px;
+font-weight: bold;
+color: gray;
+
+
+}  
+
+
+.above_heading_cards_2 {
+
+  font-size: 12px;
+  
+  color: gray;
+  
+  
+  }  
+
+  
+  .dropzone-container {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .dropzone-container p {
+    color: #888;
+  }
+  
+/* Ensures the modal takes full viewport height */
+.custom-modal .modal-dialog {
+  height: 100vh; /* 100% of the viewport height */
+  max-height: 100vh; /* Prevent it from exceeding the viewport height */
+  margin: 0;
+}
+
+.custom-modal .modal-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-modal .modal-body {
+  flex: 1;
+  overflow-y: auto; /* Makes the modal body scrollable if content overflows */
+}
+
+/* Custom class for centering the modal title */
+.custom-modal-title {
+  text-align: center;
+  width: 100%;
+}
+
+
+/* Custom modal title center alignment */
+.custom-modal-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color:#0dc270; /* Accent color for the title */
+}
+
+/* Style for Dropzone */
+.dropzone-container {
+  background-color: #f7f7f7; /* Light background color */
+  border: 2px dashed #0dc270; /* Border color */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropzone-container:hover {
+  background-color:#f0fff8; /* Light blue background on hover */
+}
+
+.dropzone-container .d-flex {
+  padding: 10px;
+  align-items: center;
+}
+
+/* Modal body styling */
+.modal-body {
+  background-color: #f8f9fa;
+  padding: 30px;
+}
+
+/* Footer button spacing */
+.modal-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+button {
+  width: 150px;
+}
+
+/* General form input styling */
+.form-control {
+  border-radius: 0.25rem;
+  
+}
+
+.form-control:focus {
+  border-color: #0dc270;
+  
+}
+
+/* Add spacing between form fields */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.button_modal_custom {
+
+  background-color: #0dc270;
+  border: none;
+
+}
+.form_modal_labels_custom {
+
+padding-top: 1%;
+font-weight: bold;
+
+}
+
+.cards_decoration {
+
+
+padding: 2vw;
+
+
+}
+
+.cards_hover_careers_addition {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-sizing: border-box; /* Ensures that border is included in element size */
+  border: solid 2px transparent; /* Start with a transparent border */
+}
+
+.cards_hover_careers_addition:hover {
+  box-shadow: 0px 4px 12px rgba(13, 194, 112, 0.5); /* Equal shadow on all sides */
+  border-color: rgba(13, 194, 112, 0.5); /* Change border color */
+  transform: scale(1.05); /* Increase card size by 5% */
+
+}
+
+.last_list_showhere {
+
+position: absolute;
+right: 5%;
+
+
+
+
+
+
+} 
+
+
+
+.last_list_showhere2 {
+
+  position: absolute;
+  right: 25%;
+  
+  
+  
+  
+  
+  
+  } 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal_button_cards{
+
+background-color: #0dc270;
+border-radius: 8px;
+width: 120%;
+border: none;
+font-size: 12px;
+
+
+}
+
+@media (min-width: 1250px) {
+  .careers_main_page {
+    margin-right: 10%; /* Increased margin for larger screens */
+    margin-left: 10%;
+  }
+
+.custom_1250style {
+
+  margin-right: 10% !important; /* Increased margin for larger screens */
+  margin-left: 10% !important;
+
+}
+
+
+}
+
+.pagination_cards {
+
+margin: 20px;
+margin-left: 5%;
+
+}
+
+.active>.page-link, .page-link.active {
+
+background-color: #0dc270;
+border-color: #0dc270;
+cursor: pointer;
+}
+
+.form-check-input:checked{
+
+  background-color: #0dc270;
+  border: none;
+  box-shadow: #0dc270;
+
+}
+
+
+.box_file_name {
+
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+vertical-align: middle;
+margin: 0;
+padding: 0;
+margin-left: 20%;
+
+}
+
+.careers_gradient_test {
+
+  background: linear-gradient(to bottom right, #9be9b0, white 50%);
+  
+
+
+
+}
+
+
